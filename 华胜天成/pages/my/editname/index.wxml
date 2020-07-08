@@ -1,0 +1,9 @@
+<view class="name">
+  <view style="display:inline-block;position: relative;top:-28rpx;font-size:34rpx;font-family:PingFang SC;font-weight:400;color:rgba(51,51,51,1);">昵称 </view>
+  <view style="display:inline-block;height:80rpx;margin-left:30rpx">
+    <input style="display:inline-block;height:80rpx;" bindinput="getname"  class="withdrawal_value" placeholder="请输入您的昵称"></input>
+  </view>
+</view>
+  <view class="submit" bindtap="onsubmit">
+    确认
+  </view>

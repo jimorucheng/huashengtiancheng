@@ -1,0 +1,7 @@
+<!--pages/homePage/newKinds/newKinds.wxml-->
+<view class='new_kinds'>
+  <view class="commont_kind {{index==tabbarIndex?'commont_kind_active':''}}" wx:for="{{newKind}}" wx:key="index" bindtap="changeTabbar" data-index="{{index}}">{{item.name}}</view>
+</view>
+<view class="choose_btn">
+  <view class="choose_btn_ok" bindtap="choose_btn_ok">确认</view>
+</view>
