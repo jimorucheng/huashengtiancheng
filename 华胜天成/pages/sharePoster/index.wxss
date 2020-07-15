@@ -1,0 +1,26 @@
+/* pages/sharePoster/index.wxss */
+page{
+  background: #000;
+}
+.shareCanvas{
+  position: absolute;
+  left: 115rpx;
+  top: 42rpx;
+  z-index: 10;
+}
+.savePoster{
+  position: absolute;
+  top: 962rpx;
+  left: 115rpx;
+  z-index: 10;
+  width:520rpx;
+  height:90rpx;
+  background:rgba(255,255,255,1) linear-gradient(270deg,rgba(255,104,139,1) 0%,rgba(255,23,77,1) 100%);
+  border-radius:10rpx;
+  text-align: center;
+  line-height: 90rpx;
+  font-size:34rpx;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}

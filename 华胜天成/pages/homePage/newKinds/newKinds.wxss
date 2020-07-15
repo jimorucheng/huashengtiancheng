@@ -1,0 +1,40 @@
+/* pages/homePage/newKinds/newKinds.wxss */
+.commont_kind{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size:30rpx;
+  font-family:PingFang SC;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+}
+.commont_kind_active{
+  background:rgba(167,28,32,1);
+  color:rgba(255,255,255,1);
+}
+.choose_btn{
+  width:750rpx;
+  height:160rpx;
+  background:rgba(255,255,255,1);
+  box-shadow:0rpx 1rpx 0rpx 0rpx rgba(220,220,220,1);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 1rpx solid #DCDCDC;
+}
+.choose_btn_ok{
+  position: absolute;
+  left: 35rpx;
+  top: 30rpx;
+  width:680rpx;
+  height:100rpx;
+  background:rgba(167,28,32,1);
+  border-radius:50rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size:32rpx;
+  font-family:PingFang SC;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}

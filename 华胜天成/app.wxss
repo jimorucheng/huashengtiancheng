@@ -1,0 +1,62 @@
+/**app.wxss**/
+.border_top{
+  border-top: 1rpx solid #DCDCDC;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.clearFix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.clearFix {
+  zoom: 1;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.more_than_one_line{  
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.more_than_two_line{
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #A71C20;
+  z-index: 3;
+}
+.header_title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: 45px;
+  height: 45px;
+  width: 100%;
+  
+}
+.header_img {
+  width: 88px;
+  height: 23px;
+  float: left;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+

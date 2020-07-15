@@ -1,0 +1,32 @@
+/* pages/news/messages/message.wxss */
+page {
+  background: #F7F7F7;
+}
+.messageContent {
+  padding: 41rpx 45rpx  20rpx 41rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+}
+
+.maessage_time {
+  text-align: center;
+  font-size: 24rpx;
+
+  color: rgba(102, 102, 102, 1);
+}
+
+.maessage_main {
+  background: rgba(255,255,255,1);
+  background:rgba(255,255,255,1);
+  border-radius:14px;
+  padding: 0 20rpx 20rpx;
+  line-height: 40rpx;
+  font-size:30rpx;
+  color: #666666;
+  margin-top: 20rpx;
+}
+.maessage_title {
+  line-height: 80rpx;
+  font-size:36rpx;
+  color: #666666;
+}

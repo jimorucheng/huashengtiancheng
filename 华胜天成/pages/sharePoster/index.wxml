@@ -1,0 +1,3 @@
+<!--pages/sharePoster/index.wxml-->
+<canvas canvas-id="shareCanvas" style="width:520rpx;height:894rpx" class="shareCanvas"></canvas>
+<view class="savePoster" bindtap="savePoster" wx:if="{{showSavePosterBtn}}">保存到手机相册</view>

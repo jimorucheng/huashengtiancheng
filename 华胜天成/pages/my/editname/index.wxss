@@ -1,0 +1,20 @@
+/* pages/my/editname/index.wxss */
+.name {
+  padding: 0 30rpx 0;
+  border-bottom: 1px solid rgba(220, 220, 220, 1);
+
+}
+
+.submit {
+  width: 680rpx;
+  height: 100rpx;
+  background: rgba(167, 28, 32, 1);
+  border-radius: 50rpx;
+  line-height: 100rpx;
+  text-align: center;
+  margin: 60rpx auto;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}

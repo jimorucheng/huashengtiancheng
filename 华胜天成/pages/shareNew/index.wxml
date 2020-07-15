@@ -1,0 +1,17 @@
+<import src="../../wXparse/wxParse.wxml" />
+<view class="content">
+	<view class="mainImg">
+		<image src="{{newsImg}}"></image>
+		<!-- src="" -->
+	</view>
+	<view class="contentTitle">{{title}}</view>
+	<view class="contentBrowse">浏览量 {{browse_num}}</view>
+	<view class="main">
+		<template is="wxParse" data="{{wxParseData:article.nodes}}" />
+	</view>
+</view>
+<view class="share_btn_box" bindtap="showModalShare">
+	<view class="share_btn">
+		打开华胜天成小程序
+	</view>
+</view>
